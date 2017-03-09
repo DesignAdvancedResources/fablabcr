@@ -7,7 +7,7 @@ Fab Lab Caldas da Rainha
 
 + navegar na Git Bash para a pasta onde querem o vosso repositorio instalado fazem:
 
-`git clone https://github.com/DesignAdvancedResources/fablabcr
+`git clone https://github.com/DesignAdvancedResources/fablabcr`
 
 + Já dentro da pasta que o clone gerou, deverão configurar o GitHub USER - atribuindo a esse repositorio
 
