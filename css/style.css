@@ -1,0 +1,147 @@
+/*---------------------------------------HEADER----------------------------------*/
+
+header {
+	width: 100%;
+	float: left;
+}
+
+.header-image {
+	width: 35%;
+	float: left;
+	position: absolute;
+}
+
+.header-title {
+	width: 30%;
+	display: inline-block;
+	margin-left: 29%;
+	padding-top: 14%;
+	text-align: center;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.title1 {
+	font-size: 7vw;
+	color: black;
+}
+
+.title2 {
+	font-size: 2.3vw;
+	color: black;
+}
+
+.header-nav {
+	float: right;
+    padding-top: 15%;
+    margin-right: 60px;
+    text-align: right;
+	line-height: 1.4;
+}
+
+.categories {
+	font-size: 1.3vw;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.categories:hover {
+	color: #4286f4;
+}
+
+/*-----------------------------------------ASIDE-------------------------------------*/
+
+#info {
+	/*position: fixed;*/
+	font-size: 1.1vw;
+	font-weight: bold;
+}
+
+.info-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*---------------------------------------SECTIONS------------------------------------*/
+.section {
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.sections {
+	float: right;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.text-image{
+	width: 100%;
+	float: left;
+	margin-bottom: 50px;
+}
+
+.section-text-title, .section-text{
+	width: 55%;
+	float: left;
+	margin-left: 5%;
+	font-family: arial;
+}
+
+.section-text-title {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.section-text {
+	font-size: 14px;
+	text-align: justify;
+	margin-bottom: 0;
+}
+
+.hr-sections {
+	border: solid 1px black;
+}
+
+.images-big {
+	width: 100%;
+	height: 34vw;
+	margin-bottom: 30px;
+	background-color: #222222;
+	color: white;
+}
+
+.images-small {
+	width: 28vw;
+	height: 18vw;
+	background-color: #222222;
+	color: white;
+	float: left;
+}
+
+.section-title {
+	margin-top: 30px;
+	color: black;
+	font-family: arial;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+/*---------------------------------------FOOTER------------------------------------*/
+
+footer {
+	padding-right: 60px;
+	padding-left: 60px;
+}
+
+.footer{
+	width: 100%;
+	float: left;
+}
+
+.footer-image {
+	width: 8%;
+}
