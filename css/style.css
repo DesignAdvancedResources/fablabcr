@@ -11,9 +11,12 @@ header {
 	position: absolute;
 }
 
+.header-image-phone {
+	margin-top: -25px;
+}
+
 .header-title {
 	width: 30%;
-	display: inline-block;
 	margin-left: 29%;
 	padding-top: 14%;
 	text-align: center;
@@ -53,7 +56,8 @@ header {
 /*-----------------------------------------ASIDE-------------------------------------*/
 
 #info {
-	/*position: fixed;*/
+	margin-top: 20px;
+	text-align: justify;
 	font-size: 1.1vw;
 	font-weight: bold;
 }
@@ -66,14 +70,10 @@ header {
 /*---------------------------------------SECTIONS------------------------------------*/
 .section {
 	float: right;
-	margin-top: 20px;
-	margin-bottom: 50px;
 }
 
 .sections {
 	float: right;
-	margin-top: 50px;
-	margin-bottom: 20px;
 }
 
 .text-image{
@@ -83,7 +83,7 @@ header {
 }
 
 .section-text-title, .section-text{
-	width: 55%;
+	width: 52%;
 	float: left;
 	margin-left: 5%;
 	font-family: arial;
@@ -132,16 +132,7 @@ header {
 
 /*---------------------------------------FOOTER------------------------------------*/
 
-footer {
-	padding-right: 60px;
-	padding-left: 60px;
-}
-
 .footer{
 	width: 100%;
 	float: left;
-}
-
-.footer-image {
-	width: 8%;
 }
