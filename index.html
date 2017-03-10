@@ -16,6 +16,7 @@
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -37,7 +38,7 @@
 	
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<header>
+	<div class="header">
 		
 			<div class="header-image">
 				<img src="images/logo.svg" alt="FABLAB-bigLogo">
@@ -54,23 +55,28 @@
 			</div>
 
 			<div class="header-nav">
-			
-				<a class="categories" href="#section1">A DAR</a>
-				<br>
-				<a class="categories" href="#section2">FABLAB</a>
-				<br>
-				<a class="categories" href="#section3">CONDIÇÕES DE ACESSO</a>
-				<br>
-				<a class="categories" href="#section4">MÁQUINAS & OFICINAS</a>
-				<br>
-				<a class="categories" href="#section5">RESERVAS</a>
-				<br>
+				<a class="categories" href="#section1">A DAR</a><br>
+				<a class="categories" href="#section2">FABLAB</a><br>
+				<a class="categories" href="#section3">CONDIÇÕES DE ACESSO</a><br>
+				<a class="categories" href="#section4">MÁQUINAS & OFICINAS</a><br>
+				<a class="categories" href="#section5">RESERVAS</a><br>
 				<a class="categories" href="#section6">CO-WORK</a>
-				
 			</div>
 
-	</header>
-	
+	</div>
+
+  	<div class="menu">
+		<button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars"></i></button>
+		<div id="myDropdown" class="dropdown-content">
+			<a class="categories-menu" href="#section1">A DAR</a>
+			<a class="categories-menu" href="#section2">FABLAB</a>
+			<a class="categories-menu" href="#section3">CONDIÇÕES DE ACESSO</a>
+			<a class="categories-menu" href="#section4">MÁQUINAS & OFICINAS</a>
+			<a class="categories-menu" href="#section5">RESERVAS</a>
+			<a class="categories-menu" href="#section6">CO-WORK</a>
+		</div>
+	</div>
+
 	<div class="container sections">
 
 			<div id="info">
