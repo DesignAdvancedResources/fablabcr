@@ -12,6 +12,8 @@
 }
 
 .header-image-phone {
+	width: 80%;
+	margin: 10%;
 	margin-top: -25px;
 	margin-bottom: -25px;
 }
@@ -112,10 +114,7 @@
 /*-----------------------------------------ASIDE-------------------------------------*/
 
 #info {
-	margin-top: 20px;
-	text-align: justify;
-	font-size: 1.1vw;
-	font-weight: bold;
+	font-size: 1.4vw;
 }
 
 .info-title {
@@ -163,7 +162,7 @@
 
 .images-big {
 	width: 100%;
-	height: 34vw;
+	height: 50vw;
 	margin-bottom: 30px;
 	background-color: #222222;
 	color: white;

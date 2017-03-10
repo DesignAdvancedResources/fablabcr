@@ -1,7 +1,7 @@
 function fixDiv() {
     var $cache = $('#info');
     if ($(window).scrollTop() > 320)
-        $cache.css({'position': 'fixed', 'top': '10px'});
+        $cache.css({'position': 'fixed', 'top': '30px'});
     else
         $cache.css({'position': 'relative', 'top': 'auto'});
 }
