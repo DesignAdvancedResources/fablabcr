@@ -114,7 +114,8 @@
 /*-----------------------------------------ASIDE-------------------------------------*/
 
 #info {
-	font-size: 1.4vw;
+	font-size: 1vw;
+	z-index: -1;
 }
 
 .info-title {
@@ -160,9 +161,24 @@
 	border: solid 1px black;
 }
 
+.quick-scrolls{
+	float: right;
+}
+
+.quick-scroll{
+	font-family: "Arial";
+	color: white;
+	background: black;
+	text-decoration: none;
+}
+
+.quick-scroll:hover{
+	color: #4286f4;;
+}
+
 .images-big {
 	width: 100%;
-	height: 50vw;
+	height: 40vw;
 	margin-bottom: 30px;
 	background-color: #222222;
 	color: white;
@@ -178,7 +194,6 @@
 	margin-top: 30px;
 	color: black;
 	font-family: arial;
-	font-size: 40px;
 	font-weight: bold;
 }
 
