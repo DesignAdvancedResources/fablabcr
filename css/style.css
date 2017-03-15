@@ -23,7 +23,7 @@
 	margin-left: 29%;
 	padding-top: 14%;
 	text-align: center;
-	font-family: arial;
+	font-family: "Baron Neue Black";
 	font-weight: bold;
 }
 
@@ -53,7 +53,7 @@
 }
 
 .categories:hover {
-	color: #4286f4;
+    text-decoration: underline;
 }
 
 /*-----------------------------------------MENU--------------------------------------*/
@@ -159,22 +159,29 @@
 }
 
 .hr-sections {
+    margin-bottom: 0;
 	border: solid 1px black;
 }
 
 .quick-scrolls{
-	float: right;
+    width: 100%;
 }
 
 .quick-scroll{
+    float: right;
 	font-family: "Arial";
 	color: white;
 	background: black;
 	text-decoration: none;
+    border: solid 5px black;
+    margin-left: 5px;
+    margin-bottom: 15px;
 }
 
 .quick-scroll:hover{
-	color: #4286f4;;
+    color: black;
+    background: lightgray;
+    border: solid 5px lightgray;
 }
 
 .image{

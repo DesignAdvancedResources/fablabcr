@@ -398,8 +398,7 @@ there.
   }
 
   .quick-scrolls{
-    font-size: 30px;
-    margin-top: -30px;
+    font-size: 22px;
   }
 
   .images-small {
@@ -448,8 +447,7 @@ there.
   }
 
   .quick-scrolls{
-    font-size: 40px;
-    margin-top: -42px;
+    font-size: 30px;
   }
 
   .section-title{
@@ -472,8 +470,7 @@ there.
 
 @media (min-width: 750px) {
   .quick-scrolls{
-    font-size: 30px;
-    margin-top: -30px;
+    font-size: 20px;
   }
 }
 

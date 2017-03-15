@@ -1,21 +1,18 @@
 //-------------------------------POSITION-FIXED----------------------------------------------
 
-function fixDiv() {
-    var $cache = $('#info');
-    if ($(window).scrollTop() > 360)
-        $cache.css({'position': 'fixed', 'top': '30px'});
-    else
-        $cache.css({'position': 'relative', 'top': 'auto'});
-}
-$(window).scroll(fixDiv);
-fixDiv();
+$(document).ready(function() {
 
-//-------------------------------BUTTON-----------------------------------------------------
+    function fixDiv() {
+        var $cache = $('#info');
+        if ($(window).scrollTop() > $('.section').offset().top-50)
+            $cache.css({'position': 'fixed', 'top': '30px'});
+        else
+            $cache.css({'position': 'relative', 'top': 'auto'});
+    }
 
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
+    $(window).scroll(fixDiv);
+    fixDiv();
+});
 //-------------------------------SMOOTH-SCROLL----------------------------------------------
 
 $(function() {
@@ -33,5 +30,24 @@ $(function() {
     });
 });
 
-//--------------------------------------------------------------------------------------
+//-------------------------------BUTTON-----------------------------------------------------
 
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function autoScroll(){
+    if ($('#myDropdown').hasClass('show')){
+
+        $('html, body').animate({
+            scrollTop: $("#button").offset().top
+        }, 1000);
+    }
+    else {
+        $('html, body').animate({
+            scrollTop: $("body").offset().top
+        }, 1000);
+
+    }
+};
