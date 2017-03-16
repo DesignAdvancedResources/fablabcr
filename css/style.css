@@ -1,3 +1,7 @@
+::selection {
+    background: darkgray;
+}
+
 /*---------------------------------------HEADER----------------------------------*/
 
 .header {
@@ -76,7 +80,7 @@
 }
 
 .categories-menu:hover {
-	color: #4286f4;
+    text-decoration: underline;
 }
 
 .dropbtn {
@@ -139,10 +143,16 @@
 	margin-bottom: 50px;
 }
 
-.section-text-title, .section-text{
+.section-text-title{
 	float: left;
 	margin-left: 5%;
 	font-family: arial;
+}
+
+.section-text{
+    float: right;
+    margin-left: 5%;
+    font-family: arial;
 }
 
 .section-text-title {
@@ -215,3 +225,18 @@
 	width: 100%;
 	float: left;
 }
+
+.footer-image {
+    margin-left: 0;
+}
+
+.googleMap {
+    float: left;
+}
+
+.googleMapLink {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+

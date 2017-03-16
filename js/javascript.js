@@ -13,6 +13,7 @@ $(document).ready(function() {
     $(window).scroll(fixDiv);
     fixDiv();
 });
+
 //-------------------------------SMOOTH-SCROLL----------------------------------------------
 
 $(function() {
