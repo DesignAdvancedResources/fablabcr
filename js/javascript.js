@@ -38,6 +38,12 @@ function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
+$(document).ready(function (){
+    $("button").click(function(){
+        $("#myDropdown").slideToggle(1000);
+    });
+});
+
 function autoScroll(){
     if ($('#myDropdown').hasClass('show')){
 
