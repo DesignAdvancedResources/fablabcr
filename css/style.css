@@ -2,6 +2,11 @@
     background: darkgray;
 }
 
+@font-face {
+	font-family: "BaronNeueBlack";
+	src: url('../fonts/BaronNeueBlack.otf') format('truetype');
+}
+
 /*---------------------------------------HEADER----------------------------------*/
 
 .header {
@@ -27,7 +32,7 @@
 	margin-left: 29%;
 	padding-top: 14%;
 	text-align: center;
-	font-family: "Baron Neue Black";
+	font-family: "BaronNeueBlack";
 	font-weight: bold;
 }
 
